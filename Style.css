@@ -41,11 +41,14 @@ section {
     padding: 15px 30px;
     background-color: #D8CAB8; /* soft taupe */
     border-bottom: 2px solid #A67B5B;
+
+    /* ✅ ADDED: allows nav to move to top-right */
+    justify-content: space-between;
 }
 
 .logo {
-    width: 70px;
-    margin-right: 20px;
+    width: 100px;
+    margin-right: 90px;
 }
 
 /* ------------------------------
@@ -53,8 +56,8 @@ section {
 ------------------------------ */
 
 .navbar {
-    background-color: #6F4E37; /* deep coffee */
-    padding: 10px 0;
+    /* ✅ ADDED: prevents background block */
+    background-color: transparent;
 }
 
 .navbar ul {
@@ -67,13 +70,13 @@ section {
 }
 
 .navbar a {
-    color: #F5F5DC;
+    color: #6F4E37;
     font-weight: bold;
     font-size: 18px;
 }
 
 .navbar a:hover {
-    color: #D9A066; /* warm terracotta */
+    color: #A67B5B; /* warm terracotta */
 }
 
 /* ------------------------------
@@ -108,12 +111,12 @@ section {
     padding: 12px 25px;
     border-radius: 6px;
     font-weight: bold;
-    transition: 0.3s ease; /* smooth animation */
+    transition: 0.3s ease;
 }
 
 .cta-button:hover {
     background-color: #A67B5B;
-    transform: translateY(-3px); /* lift effect */
+    transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -239,11 +242,13 @@ footer a:hover {
         text-align: center;
     }
 
-    .hero-text, .hero-image {
+    .hero-text,
+    .hero-image {
         max-width: 100%;
     }
 
-    .menu-grid, .why-grid {
+    .menu-grid,
+    .why-grid {
         flex-direction: column;
         align-items: center;
     }

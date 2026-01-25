@@ -31,39 +31,40 @@ a:hover {
     padding: 15px 30px;
     background-color: #D8CAB8;
     border-bottom: 2px solid #A67B5B;
+
+    /* ✅ ADDED: pushes nav to top-right */
+    justify-content: space-between;
 }
 
 .logo {
     width: 70px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
-
 /* ------------------------------
    NAVIGATION BAR
 ------------------------------ */
 
 .navbar {
-    background-color: #6F4E37;
-    padding: 10px 0;
+    /* ✅ ADDED: removes background block */
+    background-color: transparent;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     gap: 40px;
     margin: 0;
     padding: 0;
 }
 
 .navbar a {
-    color: #F5F5DC;
+    color: #6F4E37;
     font-weight: bold;
     font-size: 18px;
 }
 
 .navbar a:hover {
-    color: #D9A066;
+    color: #A67B5B;
 }
 
 /* ------------------------------
@@ -75,7 +76,6 @@ a:hover {
     padding: 50px 80px;
     background-color: #F5F5DC;
 }
-
 /* ------------------------------
    MISSION SECTION
 ------------------------------ */
