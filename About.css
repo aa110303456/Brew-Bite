@@ -76,6 +76,24 @@ a:hover {
     padding: 50px 80px;
     background-color: #F5F5DC;
 }
+.cta-button {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #A67B5B;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.cta-center {
+    text-align: center;
+    margin-top: 35px; /* slightly lower from the title */
+}
 /* ------------------------------
    MISSION SECTION
 ------------------------------ */

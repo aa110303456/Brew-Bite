@@ -27,10 +27,6 @@ body {
    NAVIGATION
 ------------------------------ */
 
-.navbar {
-    background-color: transparent;
-}
-
 .navbar ul {
     list-style: none;
     display: flex;
@@ -88,6 +84,30 @@ h2 {
 
 .item p {
     margin: 0;
+}
+
+/* ------------------------------
+   CTA BUTTON
+------------------------------ */
+
+.cta-button {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #A67B5B;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.menu-cta {
+    text-align: center;
+    margin: 40px 0;
 }
 
 /* ------------------------------

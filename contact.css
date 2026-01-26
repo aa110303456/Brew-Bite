@@ -31,10 +31,11 @@ body {
 
     /* CONTACT SECTION */
     .contact-section {
-        display: flex;
-        justify-content: center;
-        padding: 80px 20px;
-    }
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
 
     .form-container {
         max-width: 500px;
@@ -88,6 +89,27 @@ body {
         background: #c47a4a;
         color: #ffffff;
     }
+
+    .cta-button {
+    background-color: #6F4E37;
+    color: #F5F5DC;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #A67B5B;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.contact-cta {
+    position: absolute;
+    right: 80px;
+    bottom: 180px;
+}
+
 
     /* CONTACT INFO */
     .contact-info {
